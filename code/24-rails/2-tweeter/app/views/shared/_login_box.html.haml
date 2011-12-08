@@ -1,0 +1,11 @@
+#login_box
+  - if logged_in?
+    = "Hello, #{current_user.username}"
+    |
+    = link_to 'Edit profile', edit_current_user_path
+    |
+    = link_to 'Logout', logout_path
+  - else
+    = link_to "Login", login_path
+.clearfix
+  &nbsp;

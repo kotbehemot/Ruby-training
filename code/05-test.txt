@@ -1,0 +1,14 @@
+Excercise:
+
+input - n
+
+Output: a triangle - base 2n-1 , height n
+
+n = 6
+#=>
+***********
+ *********
+  *******
+   *****
+    ***
+     *

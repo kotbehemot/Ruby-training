@@ -1,0 +1,15 @@
+<% title "Tweets" %>
+
+<table>
+  <tr>
+    <th>Name</th>
+  </tr>
+  <% for tweet in @tweets %>
+    <tr>
+      <td><%= tweet.name %></td>
+      <td><%= link_to "Edit", edit_tweet_path(tweet) %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Tweet", new_tweet_path %></p>

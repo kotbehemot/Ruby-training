@@ -1,0 +1,5 @@
+= form_for @post, :remote => action_name.to_s == 'index' do |f|
+  = f.error_messages
+  %p
+    = f.text_field :text
+    = f.submit 'Tweet!'

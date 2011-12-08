@@ -1,0 +1,5 @@
+Aplikacja Rails z podstawowym uwierzytelnianiem.
+W niniejszym przykladzie uzyto po kolei:
+
+bundle exec rails g nifty:layout
+bundle exec rails g nifty:authentication

@@ -1,0 +1,5 @@
+<% if @post.valid? %>
+  $('#posts_list').prepend('<%= escape_javascript(render @post) %>').children().last().remove();
+<% else %>
+  alert('Coś nie gra');
+<% end %>

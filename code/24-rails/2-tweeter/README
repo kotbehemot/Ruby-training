@@ -1,0 +1,6 @@
+Zaczatek aplikacji tweeter.
+W niniejszym przykladzie uzyto po kolei nastepujacych generatorow:
+
+bundle exec rails g nifty:layout --haml
+bundle exec rails g nifty:scaffold post text:string index new edit --haml
+bundle exec rails g nifty:authentication --haml

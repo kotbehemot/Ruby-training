@@ -1,0 +1,11 @@
+.post
+  %span.post_time
+    On
+    = post.created_at.to_s(:short)
+  = post.user.username
+  tweeted:
+  = post.text
+  
+  - if current_user == post.user
+    %span.post_actions
+      = link_to 'Edit', edit_post_path(post)

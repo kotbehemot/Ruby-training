@@ -1,0 +1,10 @@
+RDoc core documentation:
+ http://www.ruby-doc.org/core/
+
+Ruby, RSpec & Rails
+ http://apidock.com/
+
+Best Rails Reference with search:
+http://railsapi.com/
+
+#rdoc + ri

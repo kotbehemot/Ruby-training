@@ -1,0 +1,9 @@
+- title "Tweet => share your mood with friends!"
+
+- if logged_in?
+  #new_post
+    = render 'form'
+
+#posts_list
+  = render @posts
+
